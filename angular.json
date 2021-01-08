@@ -117,8 +117,16 @@
               "devServerTarget": "terminal:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "terminal"
+    }
+  },
+  "defaultProject": "terminal",
+  "cli": {
+    "analytics": false
+  }
 }
